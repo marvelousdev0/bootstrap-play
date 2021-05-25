@@ -1,0 +1,11 @@
+.btn-brand {
+  color: #fff;
+  background-color: $orange-500;
+  border-color: $orange-500;
+}
+
+.btn-brand:hover {
+  @extend .btn-brand;
+  background-color: darken($color: $orange-500, $amount: 10%);
+  border-color: darken($color: $orange-500, $amount: 10%);
+}

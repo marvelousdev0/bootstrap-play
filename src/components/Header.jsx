@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <header>
-      <nav className="navbar navbar-light bg-light p-3">
+      <nav className="navbar navbar-dark bg-dark p-3">
         <div className="container-fluid">
           <h1 className="navbar-name">
             <a className="navbar-brand" href="/">

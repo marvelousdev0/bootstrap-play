@@ -1,2 +1,9 @@
+@import "./button";
 @import "./header";
 @import "./sidebar";
+
+.page-title {
+  font-family: "Uber Move Medium";
+  font-size: 2rem;
+  font-weight: 700;
+}

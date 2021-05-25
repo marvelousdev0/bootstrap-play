@@ -14,8 +14,10 @@ export default function Sidebar() {
         >
           {sidebarOptions.map((option) => (
             <Link
+              key={option.id}
+              id={option.id}
               className={cx("list-group-item list-group-item-action rounded", {
-                'active fw-bold': pathname === option.to,
+                "active fw-bold": pathname === option.to,
               })}
               to={option.to}
             >
